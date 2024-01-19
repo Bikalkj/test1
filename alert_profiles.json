@@ -1,0 +1,19 @@
+[
+    {
+      "name": "NOC/Webhook",
+      "enabled": true,
+      "alert_profile_type": "webhook",
+      "webhook_url": "https://noc-webhook.url",
+      "waas_firewall_app_embedded_defender_enabled": true,
+      "waas_firewall_app_embedded_defender_all_rules": false
+      // Additional configurations...
+    },
+    {
+      "name": "SOC/Webhook",
+      "enabled": true,
+      "alert_profile_type": "webhook",
+      "webhook_url": "https://soc-webhook.url",
+      // waas_firewall_app_embedded_defender is omitted, so it defaults to enabled = false and all_rules = true
+      // Additional configurations...
+    }
+]
